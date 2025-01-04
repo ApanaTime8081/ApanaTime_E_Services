@@ -10,6 +10,7 @@ import { TeamMembersComponent } from './Components/navMoreAbout/team-members/tea
 import { TestimonialsComponent } from './Components/navMoreAbout/testimonials/testimonials.component';
 import { FaqsComponent } from './Components/navMoreAbout/faqs/faqs.component';
 import { ContactsComponent } from './Components/contacts/contacts.component';
+import { CareerComponent } from './Components/career/career.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent},
@@ -22,5 +23,6 @@ export const routes: Routes = [
     { path: '_moreAbout/team', component: TeamMembersComponent},
     { path: '_moreAbout/testimonials', component: TestimonialsComponent},
     { path: '_moreAbout/quote', component: FaqsComponent},
-    { path: '_contactUs', component: ContactsComponent}
+    { path: '_contactUs', component: ContactsComponent},
+    { path: '_career', component: CareerComponent}
 ];
