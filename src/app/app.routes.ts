@@ -11,6 +11,9 @@ import { TestimonialsComponent } from './Components/navMoreAbout/testimonials/te
 import { FaqsComponent } from './Components/navMoreAbout/faqs/faqs.component';
 import { ContactsComponent } from './Components/contacts/contacts.component';
 import { CareerComponent } from './Components/career/career.component';
+// import { RodemapComponent } from './Components/rodemap/rodemap/rodemap.component';
+// import { ResourcerodemapComponent } from './Components/rodemap/rodemap/resourcerodemap/resourcerodemap.component';
+
 
 export const routes: Routes = [
     { path: '', component: HomeComponent},
@@ -25,4 +28,7 @@ export const routes: Routes = [
     { path: '_moreAbout/quote', component: FaqsComponent},
     { path: '_contactUs', component: ContactsComponent},
     { path: '_career', component: CareerComponent}
+    // { path: '_rodemap', component: RodemapComponent},
+    // { path: '_rodemap/resource', component: ResourcerodemapComponent}
+
 ];
