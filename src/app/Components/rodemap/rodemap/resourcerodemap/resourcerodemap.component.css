@@ -1,0 +1,34 @@
+.milestone {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.milestone-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.progress-container {
+  margin-top: 15px;
+}
+.resources-list {
+  list-style: none;
+  padding: 0;
+}
+.resources-list li {
+  margin-bottom: 10px;
+}
+.tips {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-left: 5px solid #007bff;
+  margin-bottom: 20px;
+}
+
+a
+{
+  color: black;
+}
